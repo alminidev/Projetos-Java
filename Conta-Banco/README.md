@@ -1,18 +1,38 @@
-## Getting Started
+# ContaTerminal
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Descrição
+O programa `ContaTerminal` é uma aplicação Java simples que interage com o usuário através do terminal para coletar informações sobre uma conta bancária. O usuário é solicitado a inserir detalhes como número da agência, número da conta, nome e saldo, que são então usados para exibir uma mensagem de boas-vindas personalizada.
 
-## Folder Structure
+## Como Executar
+Para executar o programa, siga estas etapas:
 
-The workspace contains two folders by default, where:
+1. Certifique-se de ter o Java instalado em seu sistema.
+2. Compile o código usando o comando `javac ContaTerminal.java`.
+3. Execute o programa com o comando `java ContaTerminal`.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Entrada do Usuário
+O programa solicitará ao usuário as seguintes informações:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- **Número da Agência:** O número identificador da agência bancária.
+- **Número da Conta:** O número identificador da conta bancária.
+- **Nome:** O nome do titular da conta.
+- **Saldo:** O saldo atual da conta.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Saída Esperada
+Após a entrada dos dados pelo usuário, o programa exibirá uma mensagem como a seguinte:
 
-## Dependency Management
+Olá, [Nome do Usuário], obrigado por criar uma conta em nosso banco, sua agência é [Número da Agência], conta [Número da Conta] e seu saldo de R$ [Saldo] já está disponível para saque.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+
+## Notas Adicionais
+- O programa utiliza a classe `Scanner` para capturar a entrada do usuário.
+- É importante que o usuário não insira espaços ao fornecer o número da agência e da conta, pois isso pode causar erros na execução do programa.
+- Para nomes compostos, o usuário deve inserir o nome completo após a solicitação do número da conta, sem pressionar a tecla Enter até que o nome completo seja inserido.
+
+## Licença
+Público
+
+## Autor
+Alexandre Mieli Poletini - Almini.Dev - 
+www.linkedin.com/in/alminidesign
+
