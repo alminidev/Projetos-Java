@@ -19,8 +19,8 @@ public class ContaTerminal {
         double saldo = scanner.nextDouble();
 
         // Exibir as mensagens para o nosso usuário
-        System.out.println("Olá, " + nome + ", obrigado por criar uma conta em nosso banco, sua agência é " + agencia
-                + ", conta " + numero + " e seu saldo de " + saldo + " já está disponível para saque.");
+        System.out.println("Olá " + nome + ", obrigado por criar uma conta em nosso banco, sua agência é " + agencia
+                + ", conta " + numero + " e seu saldo de R$ " + saldo + " já está disponível para saque.");
 
         // Obter pelo scaner os valores digitados no terminal - OK
 
